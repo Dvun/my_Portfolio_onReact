@@ -1,0 +1,38 @@
+.navBar {
+  display: flex;
+
+  .nav_item {
+    margin-right: 50px;
+    list-style: none;
+    font-size: 20px;
+    color: whitesmoke;
+
+    .nav_link {
+      color: whitesmoke;
+      text-decoration: none;
+    }
+
+    .nav_link:hover {
+      color: #FF8C02;
+    }
+
+    .active {
+      color: #FF8C02;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .nav {
+    .nav_item {
+      margin-right: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}

@@ -1,0 +1,114 @@
+.subNav {
+
+  .subMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+
+    .subMenuItem {
+      margin-right: 40px;
+      border: 2px solid transparent;
+      list-style: none;
+      padding: 10px 0 10px 0;
+
+      .subMenuItem_link {
+        font-weight: bold;
+        color: dimgrey;
+        text-decoration: none;
+      }
+
+      .subMenuItem_active {
+        padding-bottom: 10px;
+        border-bottom: 2px solid cornflowerblue;
+      }
+    }
+
+    .subMenuItem:last-child {
+      margin-right: 0;
+    }
+
+    .subMenuItem:hover {
+      border-bottom: 2px solid cornflowerblue;
+    }
+  }
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: space-around;
+  min-height: calc(100vh - 125px);
+  max-height: 100%;
+  flex-wrap: wrap;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+  background-color: navajowhite;
+}
+
+.projectsContainerEmpty {
+  display: flex;
+  justify-content: space-around;
+  height: calc(100vh - 125px);
+  flex-wrap: wrap;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+}
+
+.hideContentDiv {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  width: 100%;
+  user-select: none;
+}
+
+.hideContent {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 100px;
+  line-height: .75;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 555px) {
+  .hideContent {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hideContent {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .subNav {
+    .subMenu {
+      display: flex;
+      justify-content: normal;
+      .subMenuItem {
+        margin-right: 20px;
+      }
+    }
+  }
+  .hideContent {
+    font-size: 40px;
+    margin: 0;
+  }
+}
+

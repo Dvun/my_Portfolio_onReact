@@ -1,0 +1,111 @@
+{
+  "htmlCss": [
+    {
+      "id": 1,
+      "img": "https://journocode.com/wp-content/uploads/2016/06/htmlCssJS.jpg",
+      "projectName": "HTML/CSS #1",
+      "aboutText": "Landing Site",
+      "GitHub": "https://github.com/Dvun/my_repo",
+      "liveDemo": "https://dvun.github.io/my_repo/"
+    },
+    {
+      "id": 2,
+      "img": "https://journocode.com/wp-content/uploads/2016/06/htmlCssJS.jpg",
+      "projectName": "HTML/CSS #2",
+      "aboutText": "Landing VisitCard",
+      "GitHub": "https://github.com/Dvun/visitCard",
+      "liveDemo": "https://dvun.github.io/visitCard/"
+    },
+    {
+      "id": 3,
+      "img": "https://journocode.com/wp-content/uploads/2016/06/htmlCssJS.jpg",
+      "projectName": "HTML/CSS #3",
+      "aboutText": "Landing Site on bootstrap",
+      "GitHub": "https://github.com/Dvun/siteOnBootstrap_from_PSD_maket",
+      "liveDemo": "https://dvun.github.io/siteOnBootstrap_from_PSD_maket/"
+    },
+    {
+      "id": 4,
+      "img": "https://journocode.com/wp-content/uploads/2016/06/htmlCssJS.jpg",
+      "projectName": "HTML/CSS #4",
+      "aboutText": "Landing Page",
+      "GitHub": "https://github.com/Dvun/some_LandingPage",
+      "liveDemo": "https://dvun.github.io/some_LandingPage/"
+    },
+    {
+      "id": 5,
+      "img": "https://journocode.com/wp-content/uploads/2016/06/htmlCssJS.jpg",
+      "projectName": "HTML/CSS #5",
+      "aboutText": "Landing Page",
+      "GitHub": "https://github.com/Dvun/Harjoitus_7",
+      "liveDemo": "https://dvun.github.io/Harjoitus_7/#window1"
+    },
+    {
+      "id": 6,
+      "img": "https://journocode.com/wp-content/uploads/2016/06/htmlCssJS.jpg",
+      "projectName": "HTML/CSS/JS #6",
+      "aboutText": "Small Gallery on JavaScript",
+      "GitHub": "https://github.com/Dvun/Small_Gallery_on_JS",
+      "liveDemo": "https://dvun.github.io/Small_Gallery_on_JS/"
+    },
+    {
+      "id": 7,
+      "img": "https://journocode.com/wp-content/uploads/2016/06/htmlCssJS.jpg",
+      "projectName": "HTML/CSS/JS #7",
+      "aboutText": "Some small shop",
+      "GitHub": "https://github.com/Dvun/Keuda_Harjoitus_10",
+      "liveDemo": "https://dvun.github.io/Keuda_Harjoitus_10/"
+    },
+    {
+      "id": 8,
+      "img": "https://journocode.com/wp-content/uploads/2016/06/htmlCssJS.jpg",
+      "projectName": "HTML/CSS #8",
+      "aboutText": "Landing Page",
+      "GitHub": "https://github.com/Dvun/SkillFactory_LandingPage",
+      "liveDemo": "https://dvun.github.io/SkillFactory_LandingPage/"
+    },
+    {
+      "id": 9,
+      "img": "https://journocode.com/wp-content/uploads/2016/06/htmlCssJS.jpg",
+      "projectName": "HTML/CSS/JS #9",
+      "aboutText": "Small memo game on JavaScript",
+      "GitHub": "https://github.com/Dvun/memo-game",
+      "liveDemo": "https://dvun.github.io/memo-game/"
+    }
+  ],
+  "react": [
+    {
+      "id": 1,
+      "img": "https://i2.wp.com/blog.logrocket.com/wp-content/uploads/2019/12/reactleaflet2.png?fit=730%2C412&ssl=1",
+      "projectName": "React Project #1",
+      "aboutText": "Some React Chat Site. Not finished...",
+      "GitHub": "https://github.com/Dvun/React_Chat_site",
+      "liveDemo": "https://react-chatsite.firebaseapp.com/"
+    },
+    {
+      "id": 2,
+      "img": "https://i2.wp.com/blog.logrocket.com/wp-content/uploads/2019/12/reactleaflet2.png?fit=730%2C412&ssl=1",
+      "projectName": "React Project #2",
+      "aboutText": "GitHub finder",
+      "GitHub": "https://github.com/Dvun/React_GitHub_Finder",
+      "liveDemo": "https://github-finder-4820f.firebaseapp.com/"
+    },
+    {
+      "id": 3,
+      "img": "https://i2.wp.com/blog.logrocket.com/wp-content/uploads/2019/12/reactleaflet2.png?fit=730%2C412&ssl=1",
+      "projectName": "React Project #3",
+      "aboutText": "BurgerBuilder App",
+      "GitHub": "https://github.com/Dvun/burgerBuilderApp-on-react",
+      "liveDemo": "https://burgerbuilderapp-cb817.firebaseapp.com/"
+    },
+    {
+      "id": 4,
+      "img": "https://i2.wp.com/blog.logrocket.com/wp-content/uploads/2019/12/reactleaflet2.png?fit=730%2C412&ssl=1",
+      "projectName": "React Project #4",
+      "aboutText": "Small ToDoList App",
+      "GitHub": "https://github.com/Dvun/todo_list_on_react",
+      "liveDemo": "https://todolist-on-react-5d2af.firebaseapp.com/"
+    }
+  ],
+  "mern": []
+}

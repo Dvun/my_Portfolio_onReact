@@ -1,0 +1,28 @@
+header {
+  grid-row: 1;
+
+  .header {
+    padding-inline: 10px;
+    height: 100%;
+    display: flex;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    align-items: center;
+    justify-content: space-around;
+
+    .header_logo {
+      font-size: 28px;
+      a {
+        color: whitesmoke;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .toggleBtnHide {
+    display: none;
+  }
+}

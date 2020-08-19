@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  height: calc(100vh - 80px);
+}
+
+.cv {
+  width: 850px;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+}
+
+@media screen and (max-width: 1200px) {
+  .cv {
+    width: 850px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .cv {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .cv {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .cv {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .cv {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cv {
+    width: auto;
+  }
+}
+
+
+
+

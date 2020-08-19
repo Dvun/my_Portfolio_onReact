@@ -1,0 +1,62 @@
+.card {
+  margin-top: 50px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 320px;
+  height: 345px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 7px 10px 8px 0 rgba(0, 0, 0, 0.37);
+  user-select: none;
+
+  .imgAndText {
+    width: 100%;
+    max-width: 345px;
+
+    img {
+      border-radius: 5px 5px 0 0;
+      width: 100%;
+      max-width: 345px;
+      height: 200px;
+    }
+
+    h3 {
+      color: black;
+      text-align: center;
+      margin-top: -40px;
+    }
+  }
+
+  .aboutProject {
+    margin-top: 30px;
+    padding-inline: 10px;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+
+    p {
+      color: grey;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+
+    a {
+      color: #4153AC;
+      text-decoration: none;
+    }
+  }
+}
+
+
+@media screen and (max-width: 380px) {
+  .card {
+    width: 300px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+}

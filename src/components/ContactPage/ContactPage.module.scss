@@ -1,0 +1,153 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-inline: 10px;
+  background-color: navajowhite;
+  height: calc(100vh - 80px);
+
+  .insideContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+
+    .leftSide {
+      display: flex;
+      justify-content: center;
+      width: 49.5%;
+      background-color: navajowhite;
+      padding-right: 10px;
+      margin-right: 150px;
+
+      .leftSideContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+
+        h1 {
+          font-size: 50px;
+          color: dimgrey;
+        }
+
+        img {
+          border-radius: 5px;
+          width: 100%;
+          max-width: 300px;
+        }
+
+        p {
+          text-align: center;
+          font-size: 20px;
+          width: 100%;
+          max-width: 400px;
+          color: dimgrey;
+        }
+      }
+    }
+
+    .rightSide {
+      width: 49.5%;
+
+      h1 {
+        font-size: 50px;
+        color: dimgrey;
+        border-bottom: 4px dotted dimgrey;
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .contact {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+
+        .svgIcon {
+          margin-right: 25px;
+          font-size: 50px;
+          color: dimgrey;
+        }
+
+        .contactItem {
+          display: flex;
+          align-items: center;
+          font-size: 25px;
+          color: dimgrey;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .container {
+    .insideContainer {
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .leftSide {
+        margin: 0;
+        width: 100%;
+      }
+
+      .rightSide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    .insideContainer {
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .leftSide {
+        margin: 0;
+        width: 100%;
+
+        .leftSideContent {
+          h1 {
+            font-size: 40px;
+          }
+        }
+      }
+
+      .rightSide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        h1 {
+          font-size: 40px;
+          text-align: center;
+        }
+
+        .contact {
+          margin: 0;
+
+          .svgIcon {
+            font-size: 40px;
+            color: dimgrey;
+          }
+
+          .contactItem {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
