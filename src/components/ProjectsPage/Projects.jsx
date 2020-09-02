@@ -7,7 +7,7 @@ const Projects = (props) => {
   const path = props.match.path
   const location = props.location.pathname
   const subMenuItems = [
-    {id: 1, name: 'HTML/CSS', path: 'html-css'},
+    {id: 1, name: 'HTML/CSS/JS', path: 'html-css'},
     {id: 2, name: 'REACT', path: 'react'},
     {id: 3, name: 'MERN', path: 'mern'},
   ]

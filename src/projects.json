@@ -107,5 +107,14 @@
       "liveDemo": "https://todolist-on-react-5d2af.firebaseapp.com/"
     }
   ],
-  "mern": []
+  "mern": [
+    {
+      "id": 1,
+      "img": "https://i.morioh.com/200630/7055e259.jpg",
+      "projectName": "MERN Project #1",
+      "aboutText": "Small MERN Project ContactKeeper with bootstrap 5",
+      "GitHub": "https://github.com/Dvun/MERN-contacts-keeper",
+      "liveDemo": "https://mern-contacts-keeper-001.herokuapp.com/"
+    }
+  ]
 }
