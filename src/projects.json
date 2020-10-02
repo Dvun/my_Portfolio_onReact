@@ -115,6 +115,14 @@
       "aboutText": "Small MERN Project ContactKeeper with bootstrap 5",
       "GitHub": "https://github.com/Dvun/MERN-contacts-keeper",
       "liveDemo": "https://mern-contacts-keeper-001.herokuapp.com/"
+    },
+    {
+      "id": 2,
+      "img": "https://i.morioh.com/200630/7055e259.jpg",
+      "projectName": "MERN Project #2",
+      "aboutText": "MERN ECommerce shop. Now in work, that not deployd on the server. Source code can see on GitHub page.",
+      "GitHub": "https://github.com/Dvun/MERN-ReactShop",
+      "liveDemo": "https://github.com/Dvun/MERN-ReactShop"
     }
   ]
 }
