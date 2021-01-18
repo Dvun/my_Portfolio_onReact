@@ -120,9 +120,17 @@
       "id": 2,
       "img": "https://i.morioh.com/200630/7055e259.jpg",
       "projectName": "MERN Project #2",
-      "aboutText": "MERN ECommerce shop. Now in work. Not finish, but You can see it in LIVE DEMO",
-      "GitHub": "https://github.com/Dvun/MERN-ReactShop",
-      "liveDemo": "https://fullstack-ecommerce-on-react.herokuapp.com/"
+      "aboutText": "MERN ECommerce shop. React, Express",
+      "GitHub": "https://github.com/Dvun/MERN-fullStack-E-Commerce.v2",
+      "liveDemo": "http://fullstack-e-commerce.herokuapp.com/"
+    },
+    {
+      "id": 3,
+      "img": "https://i.morioh.com/200630/7055e259.jpg",
+      "projectName": "MERN Project #3",
+      "aboutText": "Small MERN Todo App",
+      "GitHub": "https://github.com/Dvun/MERN-todo_typescript",
+      "liveDemo": "https://mern-todo-fullstack-app.herokuapp.com/"
     }
   ]
 }
