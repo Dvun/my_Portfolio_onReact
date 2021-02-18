@@ -5,7 +5,7 @@ const ResumePage = () => {
 
   return (
       <div className={styles.container}>
-        <iframe className={styles.cv} src="//drive.google.com/file/d/1Dfz3EtJxlSBOimfKURB6fFRcn3p8hyPa/view?usp=sharing" width="auto" height="auto" title='cv'/>
+        <iframe className={styles.cv} src="https://drive.google.com/file/d/1Dfz3EtJxlSBOimfKURB6fFRcn3p8hyPa/view?usp=sharing" width="auto" height="auto" title='cv'/>
       </div>
   )
 }
