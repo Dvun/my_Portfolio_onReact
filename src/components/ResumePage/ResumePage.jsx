@@ -6,7 +6,7 @@ const ResumePage = () => {
 
   return (
       <div className={styles.container}>
-        {/*<iframe className={styles.cv} src="https://docs.google.com/viewer?srcid=[1Dfz3EtJxlSBOimfKURB6fFRcn3p8hyPa]&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="auto" height="auto" title='cv'/>*/}
+        <iframe className={styles.cv} src="https://docs.google.com/viewer?srcid=[1Dfz3EtJxlSBOimfKURB6fFRcn3p8hyPa]&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="auto" height="auto" title='cv'/>
         <GoogleDocsViewer
           width="600px"
           height="780px"
